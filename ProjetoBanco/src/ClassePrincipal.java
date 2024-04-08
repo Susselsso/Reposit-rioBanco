@@ -20,8 +20,16 @@ public class ClassePrincipal {
 		System.out.println(objeto_conta_dois.atributoTipoConta);
 		System.out.println(objeto_conta_dois.atributoNomeCliente);
 		System.out.println(objeto_conta_dois.atributoDocumentoCliente);
-
-
+		
+		//Adicionado dados das contas.
+		objeto_conta_um.atributoNumeroConta = 123;
+		objeto_conta_um.atributoSaldoConta = 2_600.00F;
+		objeto_conta_um.atributoTipoConta = "Conta Poupança";
+		
+		objeto_conta_dois.atributoNumeroConta = 789;
+		objeto_conta_dois.atributoSaldoConta = 4_000.00F;
+		objeto_conta_dois.atributoTipoConta = "Conta corrente";
+		
 	}
 
 }
