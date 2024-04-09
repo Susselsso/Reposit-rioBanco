@@ -1,9 +1,7 @@
 
 public class ClassePessoa {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	String atributoNomePessoa; // null
+	int atributoDocumentoPessoa; // 0.0
 
 }
